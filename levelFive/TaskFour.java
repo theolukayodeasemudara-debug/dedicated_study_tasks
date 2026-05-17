@@ -6,11 +6,37 @@ public class TaskFour{
         
         String atmMenu = """
         
-            1. Check balance        4.Withdraw money
-            2. Make Deposits        5.Intercom services
-            3. Change password      6.Manage account  
+            1. Cash Withdrawal          7. Airtime / Mobile Recharge
+            2. Balance Inquiry          8. Change PIN
+            3. Funds Transfer           9. Account Services
+            4. Cash Deposit            10. Language Selection
+            5. Cardless Withdrawal     11. Exit 
+            6. Bill Payments
         """;
-        System.out.println(atmMenu);
+        
+        int userPin = 4419;
+        int count = 1;
+        
+        while(true){
+                
+            System.out.print("enter your 4 digit pin: ");
+            int pin = inputCollector.nextInt();
+            
+            if(pin == userPin){
+                System.out.println(atmMenu);
+                break;
+            } else{
+                System.out.println("pin is incorrect. enter correct pin");
+                continue;
+            }
+            
+            }
+        // }
+
+        
+
+        
+       
         
         
         while(true){
@@ -20,12 +46,54 @@ public class TaskFour{
             
             switch(option){
                 case 1:{
-                        System.out.println("check you balance");
+                        System.out.printf("""
+                        
+                        Cash Withdrawal
+                        
+                        1. Savings Account
+                        2. Current Account
+                        3. Credit Account
+                        
+                        0 to go back.
+                        
+                        """);
                         option = inputCollector.nextInt();
                         if(option == 0){
                             System.out.println(atmMenu);
                         }
+                        break;
                 }
+                
+                case 2:{
+                        System.out.printf("""
+                        
+                        Balance inquiry
+                        
+                        1. Current Balance
+                        2. Available Balance
+                        3. Loan Balance
+                        4. Credit Card Balance
+                        
+                        0 to go back.
+                        
+                        """);
+                        
+                        option = inputCollector.nextInt();
+                        if(option == 0){
+                            System.out.println(atmMenu);
+                        }
+                        break;
+                }
+                
+                case 11:{
+                    System.out.println("take your card, process ended.");
+                    return;
+                    
+                }
+                
+                default: System.out.println("invalid entry");
+                
+                
             }
             
         }
