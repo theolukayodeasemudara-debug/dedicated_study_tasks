@@ -1,3 +1,4 @@
+// Simulate a login system with 3 attempts
 public class TaskThree{
     public static void main(String[] args){
         java.util.Scanner inputCollector = new java.util.Scanner(System.in);

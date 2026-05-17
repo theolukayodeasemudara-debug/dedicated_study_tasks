@@ -1,0 +1,11 @@
+Build a simple ATM menu system using loops
+
+public class TaskFour{
+    public static void main(String[] args){
+        java.util.Scanner inputCollector = new java.util.Scanner(System.in);
+        
+        System.out.print("enter your digit: ");
+        int number = inputCollector.nextInt();
+
+    }
+}
