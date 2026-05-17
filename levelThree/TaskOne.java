@@ -1,0 +1,12 @@
+// Print a square pattern of stars
+
+public class TaskOne{
+    public static void main(String[] args){
+        for(int index = 1; index <= 5; index++){
+            for(int row = 1; row <= 10; row++){
+                System.out.print("*");
+            }
+        System.out.println();
+        }
+    }
+}

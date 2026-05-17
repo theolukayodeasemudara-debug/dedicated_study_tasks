@@ -1,0 +1,12 @@
+// Print an inverted triangle pattern
+
+public class TaskThree{
+    public static void main(String[] args){
+        for(int index = 10; index >= 1; index--){
+            for(int row = index; row >= 1; row--){
+                System.out.print("*");
+            }
+        System.out.println();
+        }
+    }
+}
