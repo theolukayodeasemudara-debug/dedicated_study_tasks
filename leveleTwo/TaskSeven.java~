@@ -1,0 +1,19 @@
+Create a countdown timer from 10 to 0.
+public class TaskSeven{
+    public static void main(String[] args){
+        java.util.Scanner inputCollector = new java.util.Scanner(System.in);
+         int index = 1;
+         int password = 4419;
+         while(true){
+            System.out.println("enter correct password: ");
+            int number = inputCollector.nextInt();
+            if(number != password){
+                System.out.println("password  missmatch");                
+            } else{
+                System.out.println("password  correct"); 
+                break;
+            }
+            
+         }
+    }
+}

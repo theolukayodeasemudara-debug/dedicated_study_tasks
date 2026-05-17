@@ -1,0 +1,15 @@
+// Ask the user for 5 numbers and calculate the total
+public class TaskFive{
+    public static void main(String[] args){
+        java.util.Scanner inputCollector = new java.util.Scanner(System.in);
+         int index = 1;
+         int sum = 0;
+         while(index <= 5){
+            System.out.println("enter number: ");
+            int number = inputCollector.nextInt();
+            sum += number;
+             index++;
+         }
+         System.out.println(sum);
+    }
+}

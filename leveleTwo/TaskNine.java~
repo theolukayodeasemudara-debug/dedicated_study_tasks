@@ -1,0 +1,12 @@
+Find the largest number from 5 user inputs.
+
+public class TaskNine{
+    public static void main(String[] args){
+         int index = 1;
+         int number = 7;
+         while(index <= 7){
+            System.out.println(index + " X " + number + " = " + number * index);
+            index++;
+         }
+    }
+}
