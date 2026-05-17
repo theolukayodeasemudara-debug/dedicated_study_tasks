@@ -1,0 +1,6 @@
+Print numbers divisible by both 2 and 5
+public class TaskNine{
+    public static void main(Sring[] args){
+        
+    }
+}

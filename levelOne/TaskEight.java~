@@ -1,0 +1,6 @@
+Print all multiples of 3 between 1 and 50
+public class TaskEight{
+    public static void main(String[] args){
+        
+    }
+}
