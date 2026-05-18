@@ -1,11 +1,7 @@
-Build a simple ATM menu system using loops
+Create a basic calculator that runs continuously until the user exits.
 
 public class TaskFour{
     public static void main(String[] args){
-        java.util.Scanner inputCollector = new java.util.Scanner(System.in);
         
-        System.out.print("enter your digit: ");
-        int number = inputCollector.nextInt();
-
     }
 }
