@@ -1,12 +1,11 @@
 public class TaskSix{
     public static void main(String[] args){
-        // I used a loop to add all numbers from 0 to 100 together.
-        // The variable "sum" starts at 0, and each number from the loop
-        // is added to it step by step until the loop reaches 100.
-        int sum = 0;
-        for(int index = 0; index <= 100; index++){
+        int sum = 0;        
+        int index = 0;
+        do{
             sum += index;
-        }
+            index++;
+        } while(index <= 100);
         System.out.println(sum);
     }
 }

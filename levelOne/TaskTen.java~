@@ -1,6 +1,0 @@
-Print the square of numbers from 1 to 10.
-public class TaskTen{
-    public static void main(String[] args){
-        
-    }
-}

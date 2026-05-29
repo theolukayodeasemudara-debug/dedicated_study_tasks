@@ -1,7 +1,0 @@
-public class TaskSix{
-    public static void main(String[] args){
-        for(int index = 1; index <= 15; index++){
-            System.out.println("Olukayode");
-        }
-    }
-}
